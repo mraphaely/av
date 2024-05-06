@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.98);
+    color: var(--White);
+}
+.estrelinha{
+    background-color: var(--Dark-Blue);
+    padding: 15px ;
+    border-radius: 22px;
+    height: auto;
+    width: 15px;  
+
+}
+.container_main{
+   display: flex;
+   height: 100vh;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.container_card{
+    max-width: 400px;
+    height: 500px;
+    background-color: var(--Very-Dark-Blue);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#card1{
+    text-align: left;
+}
+
+
